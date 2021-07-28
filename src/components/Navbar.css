@@ -16,6 +16,7 @@
   top: 0;
   left: 0;
   right: 0;
+  z-index: 10;
 }
 
 .topFill {
@@ -48,7 +49,6 @@
 
   padding: 0 1.5%;
 
-  color: #e6eff7;
 
   display: flex;
   flex-direction: row;
@@ -60,7 +60,7 @@
   padding: 7.5px;
 
   text-decoration: none;
-  color: inherit;
+  color: #e6eff7;
 
   font-weight: bold;
   font-size: 16px;

@@ -5,9 +5,8 @@ import {
   Navbar,
   Footer,
   Home,
+  Intro,
 } from './index.js'
-
-import SF from './images/SF02.jpg'
 
 const App = () => {
 
@@ -15,12 +14,13 @@ const App = () => {
   <Navbar />
 
   <Home />
-  
   <div className='spacer'></div>
-  <img src={SF} className='homeBkgd' />
-  <img src={SF} className='homeBkgd' />
-  <img src={SF} className='homeBkgd' />
-  <img src={SF} className='homeBkgd' />
+  <Intro />
+
+  <div className='spacer'></div>
+  {/* <Home />
+  <Home />
+  <Home /> */}
 
   
   <Footer />
