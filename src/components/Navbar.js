@@ -2,8 +2,9 @@ import React from 'react'
 import './Navbar.css'
 
 import Logo from './images/Logo.png'
-import LinkedIn from './images/LinkedIn.png'
-import Resume from './images/Resume.png'
+import LinkedInLogo from './images/LinkedIn.png'
+import ResumeLogo from './images/Resume.png'
+import Resume from './images/Brian_Yang_Resume.pdf'
 
 const Navbar = () => {
 
@@ -26,12 +27,12 @@ const Navbar = () => {
       <a href='https://www.linkedin.com/in/brianwsyang/' 
          target='_blank'
          rel='noopener noreferrer'>
-        <img className='navLogo' src={LinkedIn} />
+        <img className='navLogo' src={LinkedInLogo} />
       </a>
-      <a href='https://www.linkedin.com/in/brianwsyang/' 
+      <a href={Resume} 
          target='_blank'
          rel='noopener noreferrer'>
-        <img className='navLogo' src={Resume} />
+        <img className='navLogo' src={ResumeLogo} />
       </a>
     </div>
   </div>

@@ -4,6 +4,7 @@ import './App.css'
 import {
   Navbar,
   Footer,
+  Spacer,
   Home,
   Intro,
 } from './index.js'
@@ -13,11 +14,12 @@ const App = () => {
   return (<>
   <Navbar />
 
+  {/* Home Pg */}
   <Home />
-  <div className='spacer'></div>
+  <Spacer />
   <Intro />
+  <Spacer />
 
-  <div className='spacer'></div>
   {/* <Home />
   <Home />
   <Home /> */}

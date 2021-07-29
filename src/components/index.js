@@ -1,5 +1,7 @@
 export { default as App } from './App'
 export { default as Navbar } from './Navbar'
 export { default as Footer } from './Footer'
+export { default as Spacer } from './Spacer'
 export { default as Home } from './Home'
 export { default as Intro } from './Intro'
+export { default as CV } from './CV'

@@ -5,6 +5,11 @@
   text-align: center;
 }
 
+
+.homeBkgd {
+  width: 100%;
+}
+
 .homeContainer p {
   color: #e6eff7;
   font-size: 120px;
