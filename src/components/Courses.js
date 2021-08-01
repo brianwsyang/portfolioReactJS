@@ -13,12 +13,29 @@ const Courses = () => {
     { name: 'Introduction to Artificial Intelligence' },
     { name: 'Natural Language Processing' },
     { name: 'Computational Models of Cognition' },
-
-
+    { name: 'Video Game Design & Development' },
+    { name: 'Concepts of Probability' },
+    { name: 'Linear Algebra and Differential Equations' },
+    { name: 'Discrete Mathematics and Probability Theory' },
+    { name: 'Multivariable Calculus' },
+    { name: 'Introduction to Logic' },
+    { name: 'Industrial Design and Human Factors' },
+    { name: 'Developmental Psychology' },
+    { name: 'Cognitive Neuroscience' }
   ];
 
   return (<>
   
+  <ul>
+    {
+      courses.map((course, i) => (
+        <li key={i}> 
+          <p>{course.name}</p>
+        </li>
+      ))
+
+    }
+  </ul>
   
 
   </>)

@@ -7,6 +7,8 @@ import {
   Spacer,
   Home,
   Intro,
+  CV,
+  Courses,
 } from './index.js'
 
 const App = () => {
@@ -20,9 +22,10 @@ const App = () => {
   <Intro />
   <Spacer />
 
-  {/* <Home />
-  <Home />
-  <Home /> */}
+  <Spacer />
+  <Spacer />
+  <hr className='temp' />
+  <Courses />
 
   
   <Footer />
