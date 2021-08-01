@@ -3,6 +3,11 @@
 } */
 
 
+.section {
+  background-color: #e6eff7;
+  width: 100;
+}
+
 .temp {
   border: 1px solid black;
 }

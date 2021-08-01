@@ -25,17 +25,21 @@ const Courses = () => {
   ];
 
   return (<>
-  
-  <ul>
-    {
-      courses.map((course, i) => (
-        <li key={i}> 
-          <p>{course.name}</p>
-        </li>
-      ))
 
-    }
-  </ul>
+  <div className='section'>
+    <ul className='courseList'>
+        {
+          courses.map((course, i) => (
+            <li key={i}> 
+              <p>{course.name}</p>
+            </li>
+          ))
+
+        }
+      </ul>
+  </div>
+  
+  
   
 
   </>)

@@ -28,6 +28,8 @@ const App = () => {
   <Courses />
 
   
+  <Spacer />
+  <Spacer />
   <Footer />
   </>)
 }
