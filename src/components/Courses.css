@@ -4,5 +4,17 @@
   margin: auto;
 
   column-count: 3;
-  
+  display: table;
+  list-style-type: none;
+}
+
+.courseList li {
+  padding: 5px;
+}
+
+.tempList {
+  background-color: pink;
+  width: 60%;
+
+  margin: auto;
 }

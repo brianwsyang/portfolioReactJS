@@ -23,20 +23,37 @@ const Courses = () => {
     { name: 'Developmental Psychology' },
     { name: 'Cognitive Neuroscience' }
   ];
+  const coursesList = [];
+  while(courses.length > 0) coursesList.push(courses.splice(0, 3));
+
 
   return (<>
 
-  <div className='section'>
+  {/* <div className='section'>
     <ul className='courseList'>
         {
           courses.map((course, i) => (
             <li key={i}> 
-              <p>{course.name}</p>
+              <p>{ i%3 == 2 ? 'tesm. ' + course.name : course.name }</p>
             </li>
           ))
 
         }
       </ul>
+  </div> */}
+
+  <div className='section'>
+    <table className='tempList'>
+      {
+        coursesList.map((courses, i) => (
+          <tr key={i}>
+            <td>{courses[0].name}</td>
+            <td>{ courses.length > 1 ? courses[1].name : '' }</td>
+            <td>{ courses.length > 2 ? courses[2].name : '' }</td>
+          </tr>
+        ))
+      }
+    </table>
   </div>
   
   
