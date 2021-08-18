@@ -29,20 +29,9 @@ const Courses = () => {
 
   return (<>
 
-  {/* <div className='section'>
-    <ul className='courseList'>
-        {
-          courses.map((course, i) => (
-            <li key={i}> 
-              <p>{ i%3 == 2 ? 'tesm. ' + course.name : course.name }</p>
-            </li>
-          ))
-
-        }
-      </ul>
-  </div> */}
-
   <div className='section'>
+    <h1 className='sectionTitle'>Courses</h1>
+    <div className='sectionSpacer'></div>
     <table className='tempList'>
       {
         coursesList.map((courses, i) => (
@@ -56,9 +45,6 @@ const Courses = () => {
     </table>
   </div>
   
-  
-  
-
   </>)
 }
 

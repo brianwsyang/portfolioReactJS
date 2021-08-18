@@ -13,8 +13,18 @@
 }
 
 .tempList {
-  background-color: pink;
-  width: 60%;
+  /* background-color: pink; */
+  width: 65%;
 
   margin: auto;
+}
+
+.tempList td {
+  width: 30%;
+
+  padding: 10px 20px;
+
+  text-align: center;
+  font-size: 12px;
+  letter-spacing: 0.1em;
 }

@@ -22,13 +22,12 @@ const App = () => {
   <Intro />
   <Spacer />
 
+  {/* Courses */}
   <Spacer />
-  <Spacer />
-  <hr className='temp' />
   <Courses />
+  <Spacer />
 
   
-  <Spacer />
   <Footer />
   </>)
 }
