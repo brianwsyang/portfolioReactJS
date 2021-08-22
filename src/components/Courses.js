@@ -32,11 +32,11 @@ const Courses = () => {
   <div className='section'>
     <h1 className='sectionTitle'>Courses</h1>
     <div className='sectionSpacer'></div>
-    <table className='tempList'>
+    <table className='courseList'>
       {
         coursesList.map((courses, i) => (
           <tr key={i}>
-            <td>{courses[0].name}</td>
+            <td>{ courses[0].name }</td>
             <td>{ courses.length > 1 ? courses[1].name : '' }</td>
             <td>{ courses.length > 2 ? courses[2].name : '' }</td>
           </tr>

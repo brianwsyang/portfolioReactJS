@@ -22,7 +22,9 @@ const App = () => {
   <Intro />
   <Spacer />
 
-  {/* Courses */}
+  {/* CV */}
+  <Spacer />
+  <CV />
   <Spacer />
   <Courses />
   <Spacer />
