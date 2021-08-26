@@ -1,0 +1,43 @@
+.roleSection {
+  width: 75%;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  
+}
+
+.roleItem {
+  width: 100%;
+  padding: 15px 10px;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.roleTitle {
+  width: 40%;
+}
+
+.roleTitle h4 {
+  padding: 5px;
+
+  font-size: 18px;
+}
+
+.roleDetail {
+  width: 45%;
+}
+
+.roleDetail h4 {
+  padding: 5px;
+  
+  font-size: 16px;
+}
+
+.roleDetail p {
+  padding: 2.5px 5px;
+  
+  font-size: 14px;
+}
