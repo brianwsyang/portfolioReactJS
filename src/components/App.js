@@ -7,6 +7,7 @@ import {
   Spacer,
   Home,
   Intro,
+  Projects,
   CV,
   Courses,
 } from './index.js'
@@ -20,6 +21,10 @@ const App = () => {
   <Home />
   <Spacer />
   <Intro />
+  <Spacer />
+  
+  {/* Projects */}
+  <Projects />
   <Spacer />
 
   {/* CV */}

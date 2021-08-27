@@ -30,7 +30,7 @@ const Courses = () => {
   return (<>
 
   <div className='section'>
-    <h1 className='sectionTitle'>courses</h1>
+    <h1 className='sectionTitle'>relevant coursework</h1>
     <div className='sectionSpacer'></div>
     <table className='courseList'>
       {
