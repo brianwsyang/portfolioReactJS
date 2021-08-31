@@ -1,8 +1,10 @@
 import React from 'react'
 import './Projects.css'
 
-import temp from './images/projectCovers/testProjBkgd.png'
+import airbnbPricePrediction from './images/projectCovers/airbnbPricePrediction.png'
+import acnhData from './images/projectCovers/acnhDataManipulation.png'
 import maroonFivePhotos from './images/projectCovers/maroonFivePhotos.png'
+import temp from './images/projectCovers/testProjBkgd.png'
 
 const Projects = () => {
 
@@ -13,6 +15,18 @@ const Projects = () => {
     <div className='sectionSpacer'></div>
 
     <div className='projSection'>
+      <div className='projContainer'>
+        <div className='projOverlay'>
+          <img src={airbnbPricePrediction} className='projCover' />
+        </div>
+        <h1>airbnb price prediction</h1>
+      </div>
+      <div className='projContainer'>
+        <div className='projOverlay'>
+          <img src={acnhData} className='projCover' />
+        </div>
+        <h1>animal crossing: new horizon data manipulation</h1>
+      </div>
     </div>
 
     <div className='projSection'>
